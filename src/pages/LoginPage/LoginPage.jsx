@@ -2,11 +2,14 @@
 import DocumentTitle from '../../components/DocumentTitle';
 import { LoginForm } from '../../components/LoginForm/LoginForm';
 
-export default function LoginPage() {
+
+const LoginPage = () => {
   return (
-    <div>
+    <main>
       <DocumentTitle>Login</DocumentTitle>
       <LoginForm />
-    </div>
+    </main>
   );
 }
+
+export default LoginPage;

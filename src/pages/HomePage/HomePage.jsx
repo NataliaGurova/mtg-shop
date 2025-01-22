@@ -2,41 +2,26 @@
 
 // import DocumentTitle from '../../components/DocumentTitle';
 import DocumentTitle from '../../components/DocumentTitle';
+import css from "./HomePage.module.css"
 
-const styles = {
-  container: {
-    minHeight: 'calc(100vh - 50px)',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    fontWeight: 500,
-    fontSize: 48,
-    textAlign: 'center',
-    color: '#d3d2d2',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    boxShadow: '0 0 10px 10px rgba(0, 0, 0, 0.5)',
-    borderRadius: 15,
-  },
-};
 
-export default function HomePage() {
+
+const HomePage = () => {
   return (
-    <>
-      <DocumentTitle>Home</DocumentTitle>
-
-      <div style={styles.container}>
-        <h1 style={styles.title}>
-          Welcome to Phonebook!{' '}
+    <main className={css.mainContainer}>
+      <DocumentTitle>Home - сайт з купівлі карток Magic</DocumentTitle>
+      <div className={css.container}>
+        <h1 className={css.title}>
+          Welcome to Magic The Gathering
           <span role="img" aria-label="Greeting icon">
-            {/* <img src="src\photo\phonebook_1061527.png" width={40} alt="" /> */}
           </span>
         </h1>
       </div>
-    </>
+    </main>
   );
 }
+
+export default HomePage;
 
 
 

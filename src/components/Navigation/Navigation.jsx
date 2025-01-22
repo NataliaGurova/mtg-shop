@@ -13,16 +13,28 @@ export const Navigation = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
 
   return (
-    <nav>
-      <NavLink className={buildLinkClass} to="/">
-        Home
+    <div className={css.container}>
+    <nav className={css.nav}>
+
+      <NavLink className={buildLinkClass} to="/singles">
+        MTG Singles
       </NavLink>
-      {isLoggedIn && (
-        <NavLink className={buildLinkClass} to="/contacts">
-          Contacts
+      <NavLink className={buildLinkClass} to="/sets">
+        MTG Sets
+      </NavLink>
+      <NavLink className={buildLinkClass} to="/tokens">
+        MTG Tokens
+      </NavLink>
+      <NavLink className={buildLinkClass} to="/sealed">
+        MTG Sealed
+      </NavLink>
+      {/* {isLoggedIn && (
+        <NavLink className={buildLinkClass} to="/cards">
+          Cards
         </NavLink>
-      )}
-    </nav>
+      )} */}
+      </nav>
+      </div>
   );
 };
 

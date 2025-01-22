@@ -1,13 +1,15 @@
 import { Suspense } from 'react';
-// import { Outlet } from 'react-router-dom';
-import { AppBar } from '../AppBar/AppBar';
+// import Footer from '../Footer/Footer';
+import AppBar from '../AppBar/AppBar';
+import Loader from '../Loader/Loader';
+
 
 export const Layout = ({ children }) => {
   return (
-    <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 16px' }}>
+    <div>
       <AppBar />
-      
-      <Suspense fallback={null}>{children}</Suspense>
+      <Suspense fallback={<Loader />}>{children}</Suspense>
+      {/* <Footer/> */}
     </div>
   );
 };

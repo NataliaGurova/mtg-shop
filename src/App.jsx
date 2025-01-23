@@ -1,26 +1,28 @@
 
-import { useDispatch, useSelector } from 'react-redux';
+// import { useDispatch, useSelector } from 'react-redux';
 
-import { useEffect, lazy } from 'react';
+// import { useEffect, lazy } from 'react';
+import { lazy } from 'react';
 
 import { Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout/Layout';
-import { refreshUser } from './redux/auth/operations';
-import { selectIsRefreshing } from './redux/auth/selectors';
+// import { refreshUser } from './redux/auth/operations';
+// import { selectIsRefreshing } from './redux/auth/selectors';
 
-import { PrivateRoute } from './components/PrivateRoute';
-import { RestrictedRoute } from './components/RestrictedRoute';
+// import { PrivateRoute } from './components/PrivateRoute';
+// import { RestrictedRoute } from './components/RestrictedRoute';
 
 
-const HomePage = lazy(() => import('../src/pages/HomePage/HomePage'));
+// const HomePage = lazy(() => import('../src/pages/HomePage/HomePage'));
+const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 import SinglesPage from './pages/SinglesPage/SinglesPage';
-import RegisterPage from './pages/RegisterPage/RegisterPage';
-import LoginPage from './pages/LoginPage/LoginPage';
+// import RegisterPage from './pages/RegisterPage/RegisterPage';
+// import LoginPage from './pages/LoginPage/LoginPage';
 import CartPage from './pages/CartPage/CartPage';
 import SetsPage from './pages/SetsPage/SetsPage';
 import TokensPage from './pages/TokensPage/TokensPage';
 import SealedPage from './pages/SealedPage/SealedPage';
-// const RegistrationPage = lazy(() => import('./pages/RegisterPage/RegisterPage'));
+// const RegisterPage = lazy(() => import('./pages/RegisterPage/RegisterPage'));
 // const LoginPage = lazy(() => import('../src/pages/LoginPage/LoginPage'));
 
 
@@ -123,7 +125,7 @@ const App = () => {
 
           {/* <Route path="/login" element={<LoginPage />} /> 
           <Route path="/register" element={<RegisterPage />} /> */}
-          
+
           {/* <Route path="/wishlist" element={<WishlistPage />} /> */}
           <Route path="/cart" element={<CartPage />} />
           <Route path="*" element={<HomePage />} />

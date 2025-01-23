@@ -59,13 +59,12 @@ const SinglesPage = () => {
       <DocumentTitle>Shop singles</DocumentTitle>
       <div className={css.container}>
 
-      <Filters onChange={handleSearchChange} searchCard={searchCard}/>
-        <CardsList filteredCards={filteredCards} />
+      {/* <Filters onChange={handleSearchChange} searchCard={searchCard}/> */}
+      <CardsList filteredCards={filteredCards} />
       </div>
       {/* <div className={css.contactList}>
       {error && <b>{error}</b>}
       {isLoading && <b>Loading contacts...</b>}
-        {items.length > 0 && <ContactList items={items} />}
       </div> */}
       <Toaster />
     </main>

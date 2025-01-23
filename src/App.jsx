@@ -121,8 +121,9 @@ const App = () => {
           <Route path="/tokens" element={<TokensPage />} />
           <Route path="/sealed" element={<SealedPage />} />
 
-          <Route path="/login" element={<LoginPage />} /> 
-          <Route path="/register" element={<RegisterPage />} />
+          {/* <Route path="/login" element={<LoginPage />} /> 
+          <Route path="/register" element={<RegisterPage />} /> */}
+          
           {/* <Route path="/wishlist" element={<WishlistPage />} /> */}
           <Route path="/cart" element={<CartPage />} />
           <Route path="*" element={<HomePage />} />

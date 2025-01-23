@@ -6,7 +6,6 @@ const SetsPage = () => {
     <main>
       <DocumentTitle>SetsPage</DocumentTitle>
       <h1>Sets</h1>
-      {/* <CartForm /> */}
     </main>
   );
 }

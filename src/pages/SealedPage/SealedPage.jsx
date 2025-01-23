@@ -6,7 +6,6 @@ const SealedPage = () => {
     <main>
       <DocumentTitle>SealedPage</DocumentTitle>
       <h1>Sealed</h1>
-      {/* <CartForm /> */}
     </main>
   );
 }

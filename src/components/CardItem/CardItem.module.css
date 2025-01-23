@@ -1,0 +1,35 @@
+.text {
+  margin-top: 10px;
+text-align: center;
+  width: 210px; /* Встановлюємо максимальну ширину */
+  white-space: nowrap; /* Забороняємо перенос рядка */
+  overflow: hidden; /* Приховуємо текст, який виходить за межі */
+  text-overflow: ellipsis; /* Додаємо три крапки (...) */
+}
+
+/* ============ */
+/* Ефект при наведенні */
+.itemProjects:hover {
+  transform: scale(1.05); /* Збільшення розміру */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Об'ємний тіньовий ефект */
+  background-color: rgba(43, 65, 112, 0.8); /* Трохи менш прозорий фон при наведенні */
+}
+
+/* ========= */
+
+.cart {
+  display: flex;
+  width: 210px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.btnCart {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  /* background-color: #535bf2; */
+  padding: 10px;
+  /* border: 1px solid ; */
+}

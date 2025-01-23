@@ -1,9 +1,11 @@
 
+import CardsList from "../../components/CardsList/CardsList";
 import DocumentTitle from "../../components/DocumentTitle";
 
 import css from './SinglesPage.module.css'
 import { Toaster } from "react-hot-toast";
 
+import cards from "../../../src/data/output.json"
 
 
 const SinglesPage = () => {
@@ -14,9 +16,9 @@ const SinglesPage = () => {
     <main className={css.mainContainer}>
       <DocumentTitle>Shop singles</DocumentTitle>
       <div className={css.container}>
-<h1>Singles</h1>
-      {/* <Filters /> */}
-      {/* <CardsList /> */}
+        <h1>Singles</h1>
+        {/* <Filters /> */}
+        <CardsList filteredCards={cards}/>
       </div>
       {/* <div className={css.contactList}>
       {error && <b>{error}</b>}

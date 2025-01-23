@@ -11,7 +11,7 @@ import css from './SinglesPage.module.css'
 import { Toaster } from "react-hot-toast";
 
 import CardsList from "../../components/CardsList/CardsList";
-import Filters from "../../components/Filters/Filters";
+// import Filters from "../../components/Filters/Filters";
 // import Filter from "../../components/Filter/Filter";
 // import SearchCards from "../../components/SearchCards/SearchCards";
 import cards from "../../../src/data/output.json"

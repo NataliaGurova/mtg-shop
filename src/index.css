@@ -71,9 +71,6 @@ button {
   cursor: pointer;
   padding: 0;
   border: none;
-  /* color: currentColor;
-  background-color: transparent; */
-  /* border: 2px solid rgb(154, 152, 152); */
 }
 button:hover {
   border-color: #646cff;
@@ -90,7 +87,6 @@ input {
   background-color: inherit;
   border: none;
   border-bottom: 1px solid rgb(29, 81, 5);
-  /* text-align: center; */
 }
 
 select {

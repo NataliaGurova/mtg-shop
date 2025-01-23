@@ -1,7 +1,6 @@
-// import { UserMenu } from '../UserMenu/UserMenu';
-// import { useSelector } from 'react-redux';
-// import { AuthNav } from '../AuthNav/AuthNav';
-// import { selectIsLoggedIn } from '../../redux/auth/selectors';
+
+import { useSelector } from 'react-redux';
+import { selectIsLoggedIn } from '../../redux/auth/selectors';
 import css from './AppBar.module.css';
 
 
@@ -10,9 +9,12 @@ import css from './AppBar.module.css';
 import { NavLink } from 'react-router-dom';
 import Search from '../Search/Search';
 import Navigation from '../Navigation/Navigation';
+import UserMenu from '../UserMenu/UserMenu';
+import AuthNav from '../AuthNav/AuthNav';
 
 const AppBar = () => {
-  // const isLoggedIn = useSelector(selectIsLoggedIn);
+  // const isLoggedIn = "false";
+  const isLoggedIn = useSelector(selectIsLoggedIn);
 // console.log(useSelector(selectIsLoggedIn));
 
   return (
@@ -22,7 +24,7 @@ const AppBar = () => {
         LOGO
         </NavLink> 
         <Search/>
-        {/* {isLoggedIn ? <UserMenu /> : <AuthNav />} */}
+        {isLoggedIn ? <UserMenu /> : <AuthNav />}
       </div>
       <Navigation />
     </header>

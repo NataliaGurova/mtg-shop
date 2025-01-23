@@ -13,7 +13,7 @@ const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
 };
 
-export const AuthNav = () => {
+const AuthNav = () => {
   return (
     <div className={css.container}>
       {/* <CgLogIn /> */}
@@ -31,8 +31,10 @@ export const AuthNav = () => {
       <NavLink className={buildLinkClass} to="/cart">
       <BsBasket className={css.navIcon}/>
         Cart
-        </NavLink>
+      </NavLink>
         </div>
     </div>
   );
 };
+
+export default AuthNav;

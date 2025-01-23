@@ -1,8 +1,8 @@
 
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./page/HomePage/HomePage";
-import NotFound from "./page/NotFound/NotFound";
+// import NotFound from "./page/NotFound/NotFound";
 import SharedLayout from "./components/SharedLayout/SharedLayout";
+import HomePage from "./pages/HomePage/HomePage";
 
 
 

@@ -1,4 +1,5 @@
-// import DocumentTitle from '../../components/DocumentTitle';
+
+import DocumentTitle from '../../components/DocumentTitle';
 import css from './HomePage.module.css';
 
 const HomePage = () => {

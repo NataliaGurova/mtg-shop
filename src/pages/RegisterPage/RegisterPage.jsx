@@ -1,12 +1,13 @@
 
 import DocumentTitle from '../../components/DocumentTitle';
-import { RegistrationForm } from '../../components/RegistrationForm/RegistrationForm';
+import RegisterForm from '../../components/RegisterForm/RegisterForm';
+// import { RegistrationForm } from '../../components/RegisterForm/RegisterForm';
 
 const RegisterPage = () => {
   return (
     <main>
       <DocumentTitle>Registration</DocumentTitle>
-      <RegistrationForm />
+      <RegisterForm />
     </main>
   );
 }

@@ -29,7 +29,8 @@ const AuthNav = () => {
         </div>
       <div>
       <NavLink className={buildLinkClass} to="/cart">
-      <BsBasket className={css.navIcon}/>
+          <BsBasket className={css.navIcon} />
+          <span>0</span>
         Cart
       </NavLink>
         </div>

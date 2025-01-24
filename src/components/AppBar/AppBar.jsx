@@ -20,9 +20,10 @@ const AppBar = () => {
   return (
     <header className={css.header}>
       <div className={css.container}>
-        <NavLink to="/">
-        LOGO
-        </NavLink> 
+        <NavLink to="/" className={css.logo}>
+          {/* <img src="" alt="Logo" width="28" height="28" /> */}
+          LOGO
+        </NavLink>
         <Search/>
         {isLoggedIn ? <UserMenu /> : <AuthNav />}
       </div>

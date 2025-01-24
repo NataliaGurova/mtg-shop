@@ -4,7 +4,7 @@ import css from "./CardItem.module.css"
 
 const CardItem = ({ card }) => {
   return (
-    <div>
+    <div className={css.itemCard}>
       <img src={card.picture} alt={card.name} width="210" height="296" className={css.imgCard} />
       <b className={css.text}>{card.name}</b>
       <div className={css.cart}>

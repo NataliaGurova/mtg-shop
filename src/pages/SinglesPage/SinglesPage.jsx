@@ -6,6 +6,7 @@ import css from './SinglesPage.module.css'
 import { Toaster } from "react-hot-toast";
 
 import cards from "../../../src/data/output.json"
+import Filters from "../../components/Filters/Filters";
 
 
 const SinglesPage = () => {
@@ -16,8 +17,7 @@ const SinglesPage = () => {
     <main className={css.mainContainer}>
       <DocumentTitle>Shop singles</DocumentTitle>
       <div className={css.container}>
-        <h1>Singles</h1>
-        {/* <Filters /> */}
+        <Filters />
         <CardsList filteredCards={cards}/>
       </div>
       {/* <div className={css.contactList}>

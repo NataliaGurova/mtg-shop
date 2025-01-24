@@ -1,3 +1,34 @@
+
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 260px;
+  height: 405px;
+  border-radius: 4px;
+  /* padding: 20px; */
+  /* border: 2px solid #2b4170; */
+  /* border: 1px solid rgba(43, 65, 112, 1);
+  border-radius: 5px;
+  background-color: rgba(43, 65, 112, 0.5); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анімація для об'ємного ефекту */
+  /* overflow: hidden; */
+}
+
+.itemCard:hover {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.imgCard {
+  margin-top: 20px;
+}
+
+
+
+
+
+
 .text {
   margin-top: 10px;
 text-align: center;

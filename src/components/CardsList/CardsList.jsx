@@ -8,7 +8,7 @@ const CardsList = ({ filteredCards }) => {
   return (
     <ul className={css.listCards}>
       {filteredCards.map((card) => (
-        <li key={card.id} className={css.itemCard}>
+        <li key={card.id} >
           <CardItem card={card} />
         </li>
       ))}

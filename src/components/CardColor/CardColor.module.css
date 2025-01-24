@@ -1,0 +1,161 @@
+
+
+/* ================== */
+.container {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.titleBtn {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: baseline;
+  border: none;
+  background-color: transparent;
+  /* outline: 1px solid red; */
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkboxColor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+  /* padding-left: 8px; */
+}
+
+.labelColor {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  position: relative;
+}
+
+/* .checkbox {
+  display: none; 
+} */
+
+.customCheckbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 20px;
+  /* width: 22px;
+  height: 25px; */
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  background: #f0f0f0;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  /* display: none; */
+}
+
+.customCheckbox:hover {
+  
+  border-color: rgb(29, 81, 5);
+  /* transform: translateY(-2px); */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.checkIcon {
+  color: rgb(247, 250, 253);
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.imgColor {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.checkbox:checked + .customCheckbox {
+  /* background: #81c684;  */
+  /* background: #4caf50;  */
+  border-color: rgb(29, 81, 5);
+  background-color: rgb(29, 81, 5);
+
+}
+
+.checkbox:checked + .customCheckbox .checkIcon {
+  opacity: 1; /* Показуємо галочку при виборі */
+}
+
+
+/* Забороняємо клік на зображення */
+/* img {
+  pointer-events: none; 
+} */
+
+
+/* =============== */
+/* .filterColor {
+  display: flex;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.btn.rotate {
+  transform: rotate(180deg);
+}
+
+.colorMenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.labelColor {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.labelColor:hover {
+  background-color: #f0f0f0;
+}
+
+.labelColor img {
+  margin-right: 8px;
+}
+
+.selected {
+  background-color: #e0e0e0;
+  font-weight: bold;
+} */

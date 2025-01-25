@@ -10,7 +10,7 @@ const HomePage = () => {
       <Loader/>
       <div className={css.container}>
 
-          <img src="/public/magic.jpg" alt="Magic" />
+          <img src="/magic.jpg" alt="Magic" />
       </div>
     </main>
   );

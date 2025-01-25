@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'modern-normalize';
+
 import App from './App.jsx';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-
-import 'modern-normalize';
 import { HelmetProvider } from 'react-helmet-async';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';

@@ -39,35 +39,35 @@ const CardColor = () => {
             <div className={css.customCheckbox}>
               <GiCheckMark className={css.checkIcon} />
             </div>
-            <img className={css.imgColor} src="../../../public/white.png" title="W" alt="W" width="25" height="25" />
+            <img className={css.imgColor} src="/src/photo/white.png" title="White" alt="W" width="25" height="25" />
           </label>
           <label className={css.labelColor}>
             <input type="checkbox" name="U" className={css.checkbox} />
             <div className={css.customCheckbox}>
               <GiCheckMark className={css.checkIcon} />
             </div>
-            <img className={css.imgColor} src="../../../public/blue.png" title="U" alt="U" width="25" height="25" />
+            <img className={css.imgColor} src="/src/photo/blue.png" title="Blue" alt="U" width="25" height="25" />
           </label>
           <label className={css.labelColor}>
             <input type="checkbox" name="B" className={css.checkbox} />
             <div className={css.customCheckbox}>
               <GiCheckMark className={css.checkIcon} />
             </div>
-            <img className={css.imgColor} src="../../../public/black.png" title="B" alt="B" width="25" height="25" />
+            <img className={css.imgColor} src="/src/photo/black.png" title="Black" alt="B" width="25" height="25" />
           </label>
           <label className={css.labelColor}>
             <input type="checkbox" name="R" className={css.checkbox} />
             <div className={css.customCheckbox}>
               <GiCheckMark className={css.checkIcon} />
             </div>
-            <img className={css.imgColor} src="../../../public/red.png" title="R" alt="R" width="25" height="25" />
+            <img className={css.imgColor} src="/src/photo/red.png" title="Red" alt="R" width="25" height="25" />
           </label>
           <label className={css.labelColor}>
             <input type="checkbox" name="G" className={css.checkbox} />
             <div className={css.customCheckbox}>
               <GiCheckMark className={css.checkIcon} />
             </div>
-            <img className={css.imgColor} src="../../../public/green.png" title="G" alt="G" width="25" height="25" />
+            <img className={css.imgColor} src="/src/photo/green.png" title="Green" alt="G" width="25" height="25" />
           </label>
           <label className={css.labelColor}>
             <input type="checkbox" name="colorless" className={css.checkbox} />

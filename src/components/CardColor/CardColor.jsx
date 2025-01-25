@@ -39,7 +39,7 @@ const CardColor = () => {
             <div className={css.customCheckbox}>
               <GiCheckMark className={css.checkIcon} />
             </div>
-            <img className={css.imgColor} src="./src/photo/white.png" title="White" alt="W" width="25" height="25" />
+            <img className={css.imgColor} src="src/photo/white.png" title="White" alt="W" width="25" height="25" />
           </label>
           <label className={css.labelColor}>
             <input type="checkbox" name="U" className={css.checkbox} />
@@ -72,7 +72,7 @@ const CardColor = () => {
           <label className={css.labelColor}>
             <input type="checkbox" name="colorless" className={css.checkbox} />
             <div className={css.customCheckbox}>
-              <GiCheckMark className={css.checkIcon} />
+              <GiCheckMark className={css.checkIcon} title="Colorless"/>
             </div>
             <FaRegCircle className={css.imgColor} size={25} />
           </label>

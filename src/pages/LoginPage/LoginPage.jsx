@@ -10,7 +10,7 @@ const LoginPage = () => {
       <DocumentTitle>Login</DocumentTitle>
       <div className={css.container}>
         <LoginForm />
-        <img src="/public/photo_2025-01-29_16-22-18.jpg" alt="Magic" className={css.img}/>
+        <img src="/photo_2025-01-29_16-22-18.jpg" alt="Magic" className={css.img}/>
       </div>
     </main>
   );

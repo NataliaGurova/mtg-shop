@@ -9,7 +9,7 @@ const RegisterPage = () => {
       <DocumentTitle>Registration</DocumentTitle>
       <div className={css.container}>
         <RegisterForm />
-        <img src="/public/photo_2.jpg" alt="Magic" className={css.img}/>
+        <img src="/photo_2.jpg" alt="Magic" className={css.img}/>
       </div>
     </main>
   );

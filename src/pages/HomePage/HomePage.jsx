@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <main className={css.mainContainer}>
       <DocumentTitle>Home - сайт з купівлі карток Magic</DocumentTitle>
-      <Loader/>
+      
       <div className={css.container}>
 
           <img src="/magic.jpg" alt="Magic" />

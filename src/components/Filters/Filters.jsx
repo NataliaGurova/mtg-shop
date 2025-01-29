@@ -67,7 +67,7 @@ const Filters = ({onChange, searchCard}) => {
           type="text"
           value={searchCard}
           onChange={onChange}
-          placeholder="Name"
+          placeholder="name"
           className={css.inputName}
       />
       

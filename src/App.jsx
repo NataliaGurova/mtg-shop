@@ -1,15 +1,18 @@
 
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
+import { lazy } from "react";
 import SharedLayout from "./components/SharedLayout/SharedLayout";
-import SinglesPage from "./pages/SinglesPage/SinglesPage";
-import SetsPage from "./pages/SetsPage/SetsPage";
-import TokensPage from "./pages/TokensPage/TokensPage";
-import SealedPage from "./pages/SealedPage/SealedPage";
-import CartPage from "./pages/CartPage/CartPage";
 
 import LoginPage from "./pages/LoginPage/LoginPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
+
+const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
+const SinglesPage = lazy(() => import("./pages/SinglesPage/SinglesPage"));
+const SetsPage = lazy(() => import("./pages/SetsPage/SetsPage"));
+const TokensPage = lazy(() => import("./pages/TokensPage/TokensPage"));
+const SealedPage = lazy(() => import("./pages/SealedPage/SealedPage"));
+const CartPage = lazy(() => import("./pages/CartPage/CartPage"));
+
 
 
 

@@ -1,7 +1,18 @@
+import { useState } from "react";
 import css from "./CardEdition.module.css"
+
+import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 
  
 const CardEdition = () => {
+
+  // Стан для відкриття/закриття списку === не підключен
+const [isVisible, setIsVisible] = useState(false); 
+
+const handleToggle = () => {
+    setIsVisible(!isVisible)
+  }
+// ============================================
   return (
     <div className={css.container}>
         <h3 className={css.title}>Edition</h3>       

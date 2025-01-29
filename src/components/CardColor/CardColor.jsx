@@ -2,8 +2,8 @@ import { GiCheckMark } from "react-icons/gi";
 import { FaRegCircle } from "react-icons/fa6";
 import css from "./CardColor.module.css"
 
-import { FaAngleDown } from "react-icons/fa6";
-import { FaChevronUp } from "react-icons/fa";
+// import { FaAngleDown } from "react-icons/fa6";
+import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 
 import { FaCheck } from "react-icons/fa6";
 import { useState } from "react";
@@ -11,12 +11,12 @@ import { useState } from "react";
 
 const CardColor = () => {
 
-  const [isOpen, setIsOpen] = useState(true); // Стан для відкриття/закриття списку
+// Стан для відкриття/закриття списку
+const [isVisible, setIsVisible] = useState(false); 
 
-  const toggleList = () => {
-    setIsOpen((prevState) => !prevState);
-  };
-
+const handleToggle = () => {
+    setIsVisible(!isVisible)
+  }
 
   return (
     <div className={css.container}>
@@ -25,14 +25,14 @@ const CardColor = () => {
       <button
         className={css.titleBtn}
         type="button"
-        onClick={toggleList} // Додаємо функцію для перемикання стану
+        onClick={handleToggle} // Додаємо функцію для перемикання стану
       >
         <b className={css.title}>Card Color</b>
-        {isOpen ? <FaChevronUp /> : <FaAngleDown />}
+        {isVisible ? <FaChevronUp /> : <FaChevronDown />}
       </button>
 
       {/* Відображаємо або приховуємо список залежно від стану */}
-      {isOpen && (
+      {isVisible && (
         <div className={css.checkboxColor}>
           <label className={css.labelColor}>
             <input type="checkbox" name="W" className={css.checkbox} />

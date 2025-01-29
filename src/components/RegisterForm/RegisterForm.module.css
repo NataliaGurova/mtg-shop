@@ -1,50 +1,264 @@
+
+.container {
+  margin-left: 100px;
+color: rgba(40, 39, 39, 0.7);
+}
+
 .form {
-  width: 320px;
-  -webkit-text-stroke-width: 0.5px; /* Товщина бордеру літери */
-  -webkit-text-stroke-color: black; /* Колір бордеру літери */
+  width: 350px;
+
 }
 
 .label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+.passwordContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
+.input {
+  width: 350px;
+  border: 1px solid rgba(26, 26, 26, 0.7);
+  border-radius: 4px;
+  background-color: transparent;
 
-
-.inputLogin {
-  border: none;
-  border-radius: 10px;
-  background-color: rgba(220, 215, 247, 0.7);
-
-   padding: 5px 10px;
-      font-size: 14px;
+  padding: 10px 10px;
+  font-size: 16px;
+  /* margin-top: 4px; */
+  
+  padding-right: 40px; /* Відступ для кнопки */
 }
 
-.inputLogin:hover, .inputLogin:focus, input.numberName:hover, input.numberName:focus {
-  background-color: white;
+.input::placeholder {
+  font-style: normal;
+  color: rgba(40, 39, 39, 0.7);
+  font-weight: 400;
+  transition: color 0.3s ease;  
+}
+
+.input:hover, .input:focus {
+  background-color: rgba(218, 223, 220, 0.7);
   outline: none;
 }
 
+.toggleButton {
+  background: none;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 10px;
+  bottom: 1px;
+  cursor: pointer;
+  color: #555;
+  font-size: 1.3rem;
+}
 
 .btn {
   display: flex;
   align-items: center;
-  justify-content: center;  
-  /* margin: 0 auto; */
+  justify-content: center; 
+  width: 350px;
+  height: 38px;
+  border: 1px solid rgba(53, 53, 53, 0.7); 
+  border-radius: 4px;
+  color: rgb(247, 250, 253);
   margin-top: 10px; 
+  background-color: rgb(114, 116, 114);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+/* Кнопка у стані disabled */
+.btn:disabled {
+  background-color: rgba(114, 116, 114, 0.5); /* Світліший сірий */
+  border: 1px solid rgba(53, 53, 53, 0.4);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Якщо форма валідна, робимо кнопку зеленою */
+.btn:not(:disabled) {
+  background-color: rgb(29, 81, 5);
+}
+
+.btn:not(:disabled):hover {
+  background-color: rgb(25, 70, 4);
+}
+
+
+/* ------------------------------ */
+
+.error{
+  color: #bf1650;
+  height: 21px;
+  font-size: 12px;
+}
+
+
+.linkSign {
+  display: flex;
+  width: 350px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.link {
+  color: #fcd21a;
+}
+
+.link:hover, .link.active {
+  color: #fcd21a;
+  border-bottom: 1px solid #fcd21a;
+}
+
+
+/* =============== */
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: #0e101c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+  padding: 0 20px 50px;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  position: relative;
+  top: 6px;
+}
+
+.h1 {
+  margin-top: 80px;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 0px;
+}
+
+.form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.p {
+  color: #bf1650;
+  text-align: center;
+}
+
+textarea,
+select,
+input {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.label,
+section > label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+input[type="submit"],
+.button {
+  position: relative;
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
   border: none;
-  border-radius: 8px;
-  
-  background-color: rgba(220, 215, 247, 0.7);
-  
-  transition: background-color 0.3s ease;
-
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  display: block;
+  appearance: none;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  transition: 0.3s all;
 }
 
-.btn:hover {
-  border-color: #ffffff;
-  box-shadow: 2px 4px 8px rgba(77, 69, 123, 0.7);
-  background-color: #ffffff;
-
+.buttonBlack {
+  background: black;
+  border: 1px solid white;
 }
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.counter {
+  font-weight: 400;
+  background: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 4px;
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  z-index: 9999999;
+}
+
+button[type="button"] {
+  padding: 5px;
+  background: #516391;
+  color: white;
+  letter-spacing: 0px;
+  text-transform: none;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+input[type="submit"]:hover,
+button[type="button"]:hover {
+  background: #bf1650;
+  color: white;
+}
+
+input[type="submit"]:active {
+  transition: 0.3s all;
+  top: 2px;
+}
+
+.preact {
+  opacity: 0;
+  color: white;
+}
+
+.preact:hover {
+  opacity: 1;
+} */

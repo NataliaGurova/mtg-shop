@@ -4,7 +4,7 @@
 }
 
 .glass:hover, .glass:focus {
-  fill: red;
+  color: #fcd21a;
 }
 /* 
 .searchLabel {

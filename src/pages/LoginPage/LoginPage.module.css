@@ -1,3 +1,16 @@
 .mainContainer {
 padding: 20px 40px;
 }
+
+.container {
+  display: flex;
+}
+
+.img {
+  /* display: flex; */
+  height: 494px;
+  width: 800px;
+  margin-right: 140px;
+border-radius: 4px;
+
+}

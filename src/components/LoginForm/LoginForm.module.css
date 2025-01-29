@@ -2,7 +2,8 @@
 /* -------------------------- */
 .container {
   margin-left: 100px;
-color: rgba(40, 39, 39, 0.7);
+  margin-right: 80px;
+  color: rgba(40, 39, 39, 0.7);
 }
 
 .form {

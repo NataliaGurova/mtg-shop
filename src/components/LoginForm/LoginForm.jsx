@@ -92,7 +92,7 @@ const LoginForm = () => {
 
   return (
     <div className={css.container}>
-      <h1>Sign in</h1>
+      <h1 className={css.title}>Sign in</h1>
       <form className={css.form} onSubmit={handleSubmit(onSubmit)} autoComplete="off">
         
       <label className={css.label}>        

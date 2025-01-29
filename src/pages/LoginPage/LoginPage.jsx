@@ -8,7 +8,10 @@ const LoginPage = () => {
   return (
     <main className={css.mainContainer}>
       <DocumentTitle>Login</DocumentTitle>
-      <LoginForm />
+      <div className={css.container}>
+        <LoginForm />
+        <img src="/public/photo_2025-01-29_16-22-18.jpg" alt="Magic" className={css.img}/>
+      </div>
     </main>
   );
 }

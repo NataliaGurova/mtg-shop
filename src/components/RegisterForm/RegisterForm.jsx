@@ -23,7 +23,7 @@ const passwordRegExp = /^(?=.*[A-Z]).{8,}$/;
 
 const registerSchema = Yup.object().shape({
     firstName: Yup.string().trim().required("This field is required").min(2, "Must be at least 2 characters long"),
-    lastName: Yup.string().trim().required("This field is required").min(2  , "Must be at least 2 characters long"),
+    lastName: Yup.string().trim().required("This field is required").min(2, "Must be at least 2 characters long"),
     email: Yup.string().required("This field is required").matches(emailRegExp, "Invalid email address"),
     password: Yup.string().required("This field is required")
     .min(8, "Must be at least 8 characters long")
@@ -98,13 +98,7 @@ return (
       
         <label className={css.label}>         
           <input
-          {...register("firstName"), {
-            required: "This field is required",
-            minLength: {
-              value: 2,
-              message: "Must be at least 2 characters long",
-            },
-          }}
+            {...register("firstName")}
             placeholder="First name"
             className={css.input}
             />
@@ -115,9 +109,7 @@ return (
 
         <label className={css.label}>        
         <input
-          {...register("lastName", {
-            required: "This field is required",
-          })}
+          {...register("lastName")}
           placeholder="Last name"
           className={css.input}
         />
@@ -128,9 +120,7 @@ return (
 
         <label className={css.label}>        
         <input
-          {...register("email", {
-            required: "This field is required",
-          })}
+          {...register("email")}
           placeholder="Email"
           className={css.input}
         />
@@ -142,9 +132,7 @@ return (
         <label className={css.label}>
           <div className={css.passwordContainer}>
             <input
-            {...register("password", {
-                required: "This field is required",
-              })}
+              {...register("password")}
               type={showPassword ? "text" : "password"}
               placeholder="Password"
               className={css.input}
@@ -206,3 +194,15 @@ export default RegisterForm;
 
   // value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/,
   // message: "Password must be at least 8 characters long and contain at least 1 uppercase letter, 1 lowercase letter and 1 number"
+
+          //   <input
+          // {...register("firstName"), {
+          //   required: "This field is required",
+          //   minLength: {
+          //     value: 2,
+          //     message: "Must be at least 2 characters long",
+          //   },
+          // }}
+          //   placeholder="First name"
+          //   className={css.input}
+          //   />

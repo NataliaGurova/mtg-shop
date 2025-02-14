@@ -1,0 +1,121 @@
+.modalOpen {
+  overflow: hidden;
+}
+
+.modalWindow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 70vh;
+}
+/* розмір модального вікна*/
+.modalContainer {
+  position: relative;
+  width: 800px;
+  height: 508px;
+  outline: none;
+  border: none;
+  background-color: var(--background);
+  border-radius: 5px;
+  /* padding: 20px 30px 20px 20px; */
+}
+
+.btnClose {
+  /* width: 18px;
+  height: 18px; */
+  background-color: inherit;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  fill: var(--main-text);
+  transition: fill 0.3s ease;
+  
+  z-index: 10;
+}
+
+.btnClose:hover {
+  fill: var(--nav);
+}
+
+/* .navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  fill: #fff;
+  background-color: inherit;
+  border: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.navButton:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+.navButtonLeft {
+  left: 0px;
+}
+
+.navButtonRight {
+  right: 0px;
+}
+
+.iconNav {
+  stroke: #fff;
+  stroke-width: 0.7;
+  fill: none;
+  filter: drop-shadow(0 2px 2px #1a1a1a);
+  transition: all 0.3s ease-out;
+} */
+/* 
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imgContainer {
+  width: 295px;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.newContainer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 295px;
+}
+
+.cardTitle {
+  font-size: 18px;
+  line-height: 1.2;
+} */

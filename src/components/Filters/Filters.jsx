@@ -1,40 +1,33 @@
+
+import { useEffect, useState } from "react";
 import CardArtist from "../CardArtist/CardArtist";
 import CardColor from "../CardColor/CardColor";
 import CardEdition from "../CardEdition/CardEdition";
 import CardRarity from "../CardRarity/CardRarity";
 import CardType from "../CardType/CardType";
-// import ModalDropdown from "../ModalDropdown/ModalDropdown";
-// import ModalSelect from "../ModalSelect/ModalSelect";
 import css from "./Filters.module.css"
 
 import { GiSparklingSabre } from "react-icons/gi";
 import { GiCardPlay } from "react-icons/gi";
 
 import { GiSplash } from "react-icons/gi";
+import FoilNotFoil from "../FoilNotFoil/FoilNotFoil";
 
 
 
 
-const Filters = ({onChange, searchCard}) => {
+const Filters = ({ onChange, textValue }) => {
 
+  // Знаходимо по назві
+  const handleNameChange = (event) => {
+    onChange(event.target.value);
+  };
 
-  // Фільтруєм foil notFoil
+  
+ useEffect(() => {
+    console.log("Фільтрований текст:", textValue);
+  }, [textValue]);
 
-  //  const [searchCard, setSearchCard] = useState(""); 
-  // const [filteredCards, setFilteredCards] = useState(cards);
-
-
-  // const handleSearchChange = (e) => {
-  //   const newCard = e.target.value;
-  //   setSearchCard(newCard);
-
-  //   const filtered = cards.filter(card =>
-  //     card.name.toLowerCase().includes(newCard.toLowerCase())
-  //   );
-  //   setFilteredCards(filtered);
-  //   console.log(filteredCards);
-    
-  // };
 // --------------------------
   
   return (
@@ -42,44 +35,24 @@ const Filters = ({onChange, searchCard}) => {
       <h1>Filters</h1>
       <div className={css.formContainer}>
 
+      <FoilNotFoil/>
 
-        
-        <div className={css.toggleFoil}>
-  {/* Not Foils */}
-  <label className={`${css.label} ${css.notFoilss}`}>
-    <input className={css.input} type="radio" name="print" value="NF" />
-    <span className={`${css.text} ${css.notFoils}`}>Regular</span>
-  </label>
-
-  {/* Foils */}
-  <label className={`${css.label} ${css.foilss}`}>
-    <input className={css.input} type="radio" name="print" value="F" />
-    <span className={`${css.text} ${css.foils}`}>Foils</span>
-  </label>
-</div>
-
-
-
-
-        <h3 className={css.title}>Card Name</h3>
-
+      <h3 className={css.title}>Card Name</h3>
         <input
           type="text"
-          value={searchCard}
-          onChange={onChange}
+          value={textValue}
+          onChange={handleNameChange}
           placeholder="name"
           className={css.inputName}
       />
       
-
         <CardEdition/>
         <CardType/>
 
         <CardColor />
+        <CardRarity  />
+        <CardArtist  />
 
-
-        <CardRarity cards={searchCard} />
-        <CardArtist cards={searchCard} />
         {/* <button type="submit">Search</button> */}
       </div>
     </div>  

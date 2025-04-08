@@ -1,8 +1,8 @@
 
 import { useState } from "react";
 import css from "./FoilNotFoil.module.css"
-const FoilNotFoil = () => {
-  const [isFoil, setIsFoil] = useState("");
+const FoilNotFoil = ({ isFoil, onChangeFoil}) => {
+  
 
   // Фільтруєм foil notFoil
   

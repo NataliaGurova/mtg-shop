@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import CardArtist from "../CardArtist/CardArtist";
 import CardColor from "../CardColor/CardColor";
-import CardEdition from "../CardEdition/CardEdition";
+import CardSet from "../CardSet/CardSet";
 import CardRarity from "../CardRarity/CardRarity";
 import CardType from "../CardType/CardType";
 import css from "./Filters.module.css"
@@ -16,7 +16,7 @@ import FoilNotFoil from "../FoilNotFoil/FoilNotFoil";
 
 
 
-const Filters = ({ onChange, textValue }) => {
+const Filters = ({ onChange, textValue, isFoil, onChangeFoil }) => {
 
   // Знаходимо по назві
   const handleNameChange = (event) => {
@@ -35,7 +35,7 @@ const Filters = ({ onChange, textValue }) => {
       <h1>Filters</h1>
       <div className={css.formContainer}>
 
-      <FoilNotFoil/>
+        <FoilNotFoil isFoil={isFoil} onChangeFoil={onChangeFoil} />
 
       <h3 className={css.title}>Card Name</h3>
         <input
@@ -46,7 +46,7 @@ const Filters = ({ onChange, textValue }) => {
           className={css.inputName}
       />
       
-        <CardEdition/>
+        <CardSet/>
         <CardType/>
 
         <CardColor />

@@ -1,4 +1,5 @@
 // import filteredCards from "../../../src/data/output.json"
+import { useEffect } from "react";
 import CardItem from "../CardItem/CardItem";
 import css from "./CardsList.module.css"
 

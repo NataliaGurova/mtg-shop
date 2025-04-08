@@ -34,6 +34,20 @@ export const getCards = async (page) => {
 
 
 
+export const getCardsFromSet = async (setCode, page = 1) => {
+
+    const response = await axios.get(`https://api.scryfall.com/cards/search`, {
+      params: {
+        q: `set:${setCode}`, // Фільтр за сетом (код сету, наприклад "bok")
+        page: page, // Пагінація (за замовчуванням 1)
+      },
+    });
+
+    return response.data.data; // Повертаємо масив карт
+
+};
+
+
 
 
 
@@ -48,3 +62,14 @@ export const getCards = async (page) => {
 
 //   return response.data.hits;
 // };
+
+
+// іконки svg symbol sets
+
+export const getSetSymbol = async (setCode) => {
+  const res = await fetch(`https://api.scryfall.com/sets/${setCode}`);
+  const data = await res.json();
+  return data.icon_svg_uri; // SVG іконка символу сета
+};
+
+//  9ed шлях:   https://svgs.scryfall.io/sets/9ed.svg?1743998400

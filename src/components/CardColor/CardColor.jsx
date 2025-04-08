@@ -74,7 +74,9 @@ const handleToggle = () => {
             <div className={css.customCheckbox}>
               <GiCheckMark className={css.checkIcon} title="Colorless"/>
             </div>
-            <FaRegCircle className={css.imgColor} size={25} />
+            <div className={css.imgColorless}>
+              <img className={`${css.imgColor} ${css.imgColorLast}`} src="/photo/colorless.svg" title="Colorless" alt="" width="21" height="21" />
+            </div>
           </label>
         </div>
       )}

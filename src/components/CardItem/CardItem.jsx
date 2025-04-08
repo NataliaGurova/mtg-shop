@@ -9,6 +9,8 @@ import ModalCard from "../ModalCard/ModalCard";
 // import { useEffect } from "react";
 
 const CardItem = ({ card }) => {
+  // console.log("set :", card.set, "set_name :", card.set_name);
+  
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 

@@ -1,0 +1,549 @@
+[
+  {
+    "code": "lea",
+    "set_name": "Limited Edition Alpha",
+    "symbol": "/sets/symbols/lea.svg",
+    "release_date": "1993-08-05",
+    "total_cards": 295
+  },
+  {
+    "code": "leb",
+    "set_name": "Limited Edition Beta",
+    "symbol": "/sets/symbols/leb.svg",
+    "release_date": "1993-10-04",
+    "total_cards": 302
+  },
+  {
+    "code": "2ed",
+    "set_name": "Unlimited Edition",
+    "symbol": "/sets/symbols/2ed.svg",
+    "release_date": "1993-12-01",
+    "total_cards": 302
+  },
+  {
+    "code": "arn",
+    "set_name": "Arabian Nights",
+    "symbol": "/sets/symbols/arn.svg",
+    "release_date": "1993-12-17",
+    "total_cards": 78
+  },
+  {
+    "code": "atq",
+    "set_name": "Antiquities",
+    "symbol": "/sets/symbols/atq.svg",
+    "release_date": "1994-03-04",
+    "total_cards": 100
+  },
+  {
+    "code": "3ed",
+    "set_name": "Revised Edition",
+    "symbol": "/sets/symbols/3ed.svg",
+    "release_date": "1994-04-01",
+    "total_cards": 306
+  },
+  {
+    "code": "leg",
+    "set_name": "Legends",
+    "symbol": "/sets/symbols/leg.svg",
+    "release_date": "1994-06-01",
+    "total_cards": 310
+  },
+  {
+    "code": "drk",
+    "set_name": "The Dark",
+    "symbol": "/sets/symbols/drk.svg",
+    "release_date": "1994-08-01",
+    "total_cards": 119
+  },
+  {
+    "code": "fem",
+    "set_name": "Fallen Empires",
+    "symbol": "/sets/symbols/fem.svg",
+    "release_date": "1994-11-01",
+    "total_cards": 187
+  },
+  {
+    "code": "4ed",
+    "set_name": "Fourth Edition",
+    "symbol": "/sets/symbols/4ed.svg",
+    "release_date": "1995-04-01",
+    "total_cards": 378
+  },
+  {
+    "code": "ice",
+    "set_name": "Ice Age",
+    "symbol": "/sets/symbols/ice.svg",
+    "release_date": "1995-06-03",
+    "total_cards": 383
+  },
+  {
+    "code": "chr",
+    "set_name": "Chronicles",
+    "symbol": "/sets/symbols/chr.svg",
+    "release_date": "1995-07-01",
+    "total_cards": 125
+  },
+  {
+    "code": "hml",
+    "set_name": "Homelands",
+    "symbol": "/sets/symbols/hml.svg",
+    "release_date": "1995-10-01",
+    "total_cards": 140
+  },
+  {
+    "code": "all",
+    "set_name": "Alliances",
+    "symbol": "/sets/symbols/all.svg",
+    "release_date": "1996-06-10",
+    "total_cards": 199
+  },
+  {
+    "code": "mir",
+    "set_name": "Mirage",
+    "symbol": "/sets/symbols/mir.svg",
+    "release_date": "1996-10-08",
+    "total_cards": 350
+  },
+  {
+    "code": "vis",
+    "set_name": "Visions",
+    "symbol": "/sets/symbols/vis.svg",
+    "release_date": "1997-02-03",
+    "total_cards": 167
+  },
+  {
+    "code": "5ed",
+    "set_name": "Fifth Edition",
+    "symbol": "/sets/symbols/5ed.svg",
+    "release_date": "1997-03-24",
+    "total_cards": 449
+  },
+  {
+    "code": "wth",
+    "set_name": "Weatherlight",
+    "symbol": "/sets/symbols/wth.svg",
+    "release_date": "1997-06-09",
+    "total_cards": 167
+  },
+  {
+    "code": "tmp",
+    "set_name": "Tempest",
+    "symbol": "/sets/symbols/tmp.svg",
+    "release_date": "1997-10-14",
+    "total_cards": 350
+  },
+  {
+    "code": "sth",
+    "set_name": "Stronghold",
+    "symbol": "/sets/symbols/sth.svg",
+    "release_date": "1998-03-02",
+    "total_cards": 143
+  },
+  {
+    "code": "exo",
+    "set_name": "Exodus",
+    "symbol": "/sets/symbols/exo.svg",
+    "release_date": "1998-06-15",
+    "total_cards": 143
+  },
+  {
+    "code": "usg",
+    "set_name": "Urza's Saga",
+    "symbol": "/sets/symbols/usg.svg",
+    "release_date": "1998-10-12",
+    "total_cards": 350
+  },
+  {
+    "code": "ulg",
+    "set_name": "Urza's Legacy",
+    "symbol": "/sets/symbols/ulg.svg",
+    "release_date": "1999-02-15",
+    "total_cards": 143
+  },
+  {
+    "code": "6ed",
+    "set_name": "Classic Sixth Edition",
+    "symbol": "/sets/symbols/6ed.svg",
+    "release_date": "1999-04-21",
+    "total_cards": 350
+  },
+  {
+    "code": "uds",
+    "set_name": "Urza's Destiny",
+    "symbol": "/sets/symbols/uds.svg",
+    "release_date": "1999-06-07",
+    "total_cards": 143
+  },
+  {
+    "code": "7ed",
+    "set_name": "Seventh Edition",
+    "symbol": "/sets/symbols/7ed.svg",
+    "release_date": "2001-04-11",
+    "total_cards": 350
+  },
+  {
+    "code": "8ed",
+    "set_name": "Eighth Edition",
+    "symbol": "/sets/symbols/8ed.svg",
+    "release_date": "2003-07-28",
+    "total_cards": 357
+  },
+  {
+    "code": "9ed",
+    "set_name": "Ninth Edition",
+    "symbol": "/sets/symbols/9ed.svg",
+    "release_date": "2005-07-29",
+    "total_cards": 359
+  },
+  {
+    "code": "10e",
+    "set_name": "Tenth Edition",
+    "symbol": "/sets/symbols/10e.svg",
+    "release_date": "2007-07-13",
+    "total_cards": 383
+  },
+  {
+    "code": "m10",
+    "set_name": "Magic 2010",
+    "symbol": "/sets/symbols/m10.svg",
+    "release_date": "2009-07-17",
+    "total_cards": 383
+  },
+  {
+    "code": "m11",
+    "set_name": "Magic 2011",
+    "symbol": "/sets/symbols/m11.svg",
+    "release_date": "2010-07-16",
+    "total_cards": 249
+  },
+  {
+    "code": "m12",
+    "set_name": "Magic 2012",
+    "symbol": "/sets/symbols/m12.svg",
+    "release_date": "2011-07-15",
+    "total_cards": 249
+  },
+  {
+    "code": "m13",
+    "set_name": "Magic 2013",
+    "symbol": "/sets/symbols/m13.svg",
+    "release_date": "2012-07-13",
+    "total_cards": 249
+  },
+  {
+    "code": "m14",
+    "set_name": "Magic 2014",
+    "symbol": "/sets/symbols/m14.svg",
+    "release_date": "2013-07-19",
+    "total_cards": 249
+  },
+  {
+    "code": "m15",
+    "set_name": "Magic 2015",
+    "symbol": "/sets/symbols/m15.svg",
+    "release_date": "2014-07-18",
+    "total_cards": 284
+  },
+  {
+    "code": "ori",
+    "set_name": "Magic Origins",
+    "symbol": "/sets/symbols/ori.svg",
+    "release_date": "2015-07-17",
+    "total_cards": 288
+  },
+  {
+    "code": "m19",
+    "set_name": "Core Set 2019",
+    "symbol": "/sets/symbols/m19.svg",
+    "release_date": "2018-07-13",
+    "total_cards": 280
+  },
+  {
+    "code": "m20",
+    "set_name": "Core Set 2020",
+    "symbol": "/sets/symbols/m20.svg",
+    "release_date": "2019-07-12",
+    "total_cards": 321
+  },
+  {
+    "code": "m21",
+    "set_name": "Core Set 2021",
+    "symbol": "/sets/symbols/6ed.svg",
+    "release_date": "2020-07-03",
+    "total_cards": 274
+  },
+  {
+    "code": "fdn",
+    "set_name": "Magic: The Gathering Foundations",
+    "symbol": "/sets/symbols/fdn.svg",
+    "release_date": "2020-11-15",
+    "total_cards": 292
+  },
+  {
+    "code": "mmq",
+    "set_name": "Mercadian Masques",
+    "symbol": "/sets/symbols/mmq.svg",
+    "release_date": "1999-10-04",
+    "total_cards": 350
+  },
+  {
+    "code": "nem",
+    "set_name": "Nemesis",
+    "symbol": "/sets/symbols/nem.svg",
+    "release_date": "2000-02-14",
+    "total_cards": 143
+  },
+  {
+    "code": "pcy",
+    "set_name": "Prophecy",
+    "symbol": "/sets/symbols/pcy.svg",
+    "release_date": "2000-06-05",
+    "total_cards": 143
+  },
+  {
+    "code": "inv",
+    "set_name": "Invasion",
+    "symbol": "/sets/symbols/inv.svg",
+    "release_date": "2000-10-02",
+    "total_cards": 350
+  },
+  {
+    "code": "pls",
+    "set_name": "Planeshift",
+    "symbol": "/sets/symbols/pls.svg",
+    "release_date": "2001-02-05",
+    "total_cards": 143
+  },
+  {
+    "code": "apc",
+    "set_name": "Apocalypse",
+    "symbol": "/sets/symbols/apc.svg",
+    "release_date": "2001-06-04",
+    "total_cards": 143
+  },
+  {
+    "code": "ody",
+    "set_name": "Odyssey",
+    "symbol": "/sets/symbols/ody.svg",
+    "release_date": "2001-10-01",
+    "total_cards": 350
+  },
+  {
+    "code": "tor",
+    "set_name": "Torment",
+    "symbol": "/sets/symbols/tor.svg",
+    "release_date": "2002-02-04",
+    "total_cards": 143
+  },
+  {
+    "code": "jud",
+    "set_name": "Judgment",
+    "symbol": "/sets/symbols/jud.svg",
+    "release_date": "2002-05-27",
+    "total_cards": 143
+  },
+  {
+    "code": "ons",
+    "set_name": "Onslaught",
+    "symbol": "/sets/symbols/ons.svg",
+    "release_date": "2002-10-07",
+    "total_cards": 350
+  },
+  {
+    "code": "lgn",
+    "set_name": "Legions",
+    "symbol": "/sets/symbols/lgn.svg",
+    "release_date": "2003-02-03",
+    "total_cards": 145
+  },
+  {
+    "code": "scg",
+    "set_name": "Scourge",
+    "symbol": "/sets/symbols/scg.svg",
+    "release_date": "2003-05-26",
+    "total_cards": 143
+  },
+  {
+    "code": "mrd",
+    "set_name": "Mirrodin",
+    "symbol": "/sets/symbols/mrd.svg",
+    "release_date": "2003-10-02",
+    "total_cards": 306
+  },
+  {
+    "code": "dst",
+    "set_name": "Darksteel",
+    "symbol": "/sets/symbols/dst.svg",
+    "release_date": "2004-02-06",
+    "total_cards": 165
+  },
+  {
+    "code": "5dn",
+    "set_name": "Fifth Dawn",
+    "symbol": "/sets/symbols/5dn.svg",
+    "release_date": "2004-06-04",
+    "total_cards": 165
+  },
+  {
+    "code": "chk",
+    "set_name": "Champions of Kamigawa",
+    "symbol": "/sets/symbols/chk.svg",
+    "release_date": "2004-10-01",
+    "total_cards": 306
+  },
+  {
+    "code": "bok",
+    "set_name": "Betrayers of Kamigawa",
+    "symbol": "/sets/symbols/bok.svg",
+    "release_date": "2005-02-04",
+    "total_cards": 165
+  },
+  {
+    "code": "sok",
+    "set_name": "Saviors of Kamigawa",
+    "symbol": "/sets/symbols/sok.svg",
+    "release_date": "2005-06-03",
+    "total_cards": 165
+  },
+  {
+    "code": "rav",
+    "set_name": "Ravnica: City of Guilds",
+    "symbol": "/sets/symbols/rav.svg",
+    "release_date": "2005-10-07",
+    "total_cards": 306
+  },
+  {
+    "code": "gpt",
+    "set_name": "Guildpact",
+    "symbol": "/sets/symbols/gpt.svg",
+    "release_date": "2006-02-03",
+    "total_cards": 165
+  },
+  {
+    "code": "dis",
+    "set_name": "Dissension",
+    "symbol": "/sets/symbols/dis.svg",
+    "release_date": "2006-05-05",
+    "total_cards": 180
+  },
+  {
+    "code": "csp",
+    "set_name": "Coldsnap",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Ac20&unique=prints",
+    "symbol": "/sets/symbols/csp.svg",
+    "release_date": "2006-07-21",
+    "total_cards": 155
+  },
+  {
+    "code": "tsp",
+    "set_name": "Time Spiral",
+    "symbol": "/sets/symbols/tsp.svg",
+    "release_date": "2006-10-06",
+    "total_cards": 422
+  },
+  {
+    "code": "plc",
+    "set_name": "Planar Chaos",
+    "symbol": "/sets/symbols/plc.svg",
+    "release_date": "2007-02-02",
+    "total_cards": 165
+  },
+  {
+    "code": "fut",
+    "set_name": "Future Sight",
+    "symbol": "/sets/symbols/fut.svg",
+    "release_date": "2007-05-04",
+    "total_cards": 180
+  },
+  {
+    "code": "lrw",
+    "set_name": "Lorwyn",
+    "symbol": "/sets/symbols/lrw.svg",
+    "release_date": "2007-10-12",
+    "total_cards": 301
+  },
+  {
+    "code": "mor",
+    "set_name": "Morningtide",
+    "symbol": "/sets/symbols/mor.svg",
+    "release_date": "2008-02-01",
+    "total_cards": 150
+  },
+  {
+    "code": "shm",
+    "set_name": "Shadowmoor",
+    "symbol": "/sets/symbols/shm.svg",
+    "release_date": "2008-02-05",
+    "total_cards": 301
+  },
+  {
+    "code": "eve",
+    "set_name": "Eventide",
+    "symbol": "/sets/symbols/eve.svg",
+    "release_date": "2008-07-25",
+    "total_cards": 180
+  },
+  {
+    "code": "ala",
+    "set_name": "Shards of Alara",
+    "symbol": "/sets/symbols/ala.svg",
+    "release_date": "2008-10-03",
+    "total_cards": 249
+  },
+  {
+    "code": "con",
+    "set_name": "Conflux",
+    "symbol": "/sets/symbols/con.svg",
+    "release_date": "2009-02-06",
+    "total_cards": 145
+  },
+  {
+    "code": "arb",
+    "set_name": "Alara Reborn",
+    "symbol": "/sets/symbols/arb.svg",
+    "release_date": "2009-04-30",
+    "total_cards": 145
+  },
+  {
+    "code": "zen",
+    "set_name": "Zendikar",
+    "symbol": "/sets/symbols/zen.svg",
+    "release_date": "2009-10-02",
+    "total_cards": 249
+  },
+  {
+    "code": "wwk",
+    "set_name": "Worldwake",
+    "symbol": "/sets/symbols/wwk.svg",
+    "release_date": "2010-02-05",
+    "total_cards": 145
+  },
+  {
+    "code": "roe",
+    "set_name": "Rise of the Eldrazi",
+    "symbol": "/sets/symbols/roe.svg",
+    "release_date": "2010-04-23",
+    "total_cards": 248
+  },
+  {
+    "code": "som",
+    "set_name": "Scars of Mirrodin",
+    "symbol": "/sets/symbols/som.svg",
+    "release_date": "2010-10-01",
+    "total_cards": 249
+  },
+  {
+    "code": "mbs",
+    "set_name": "Mirrodin Besieged",
+    "symbol": "/sets/symbols/mbs.svg",
+    "release_date": "2011-02-04",
+    "total_cards": 155
+  },
+  {
+    "code": "nph",
+    "set_name": "New Phyrexia",
+    "symbol": "/sets/symbols/nph.svg",
+    "release_date": "2011-05-13",
+    "total_cards": 175
+  }  
+]

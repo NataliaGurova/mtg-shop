@@ -107,7 +107,7 @@ const SinglesPage = () => {
     <main className={css.mainContainer}>
       <DocumentTitle>Shop singles</DocumentTitle>
       <div className={css.container}>
-        <Filters onChange={setInputValue} textValue={inputValue} />
+        <Filters onChange={setInputValue} textValue={inputValue} isFoil={isFoil} onChangeFoil={setIsFoil} />
         {/* <CardsList cards={filteredCards} /> */}
         {filteredCards.length > 0 && <CardsList cards={filteredCards} onClick={handleLoadMore} isLoading={isLoading} />}
         {isError && <p>Oops! There was an error! Try reloading!</p>}

@@ -67,9 +67,6 @@ return (
         alt={card.name}
         className={css.imgCard}
       />
-      {card.foil && (
-        <span className={css.foilBadge}>Foil ✨</span>
-      )}
     </div>
 
     {/* Задня сторона */}
@@ -80,9 +77,6 @@ return (
           alt={`${card.name} - back`}
           className={css.imgCard}
         />
-        {card.foil && (
-          <span className={css.foilBadge}>Foil ✨</span>
-        )}
       </div>
     )}
 

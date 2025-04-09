@@ -58,123 +58,81 @@ const ModalCard = ({ card, hasCardFaces }) => {
     }
   };
 return (
-  <div className={css.modalContent}>
-    <div className={`${css.cardInner} ${isFlipped ? css.flipped : ""}`}>
-      {/* Передня сторона */}
-      <div className={css.cardFace}>
-        <img src={card.image_uris?.large || card.card_faces[0].image_uris?.large} alt={card.name} className={css.imgCard} />
-      </div>
-      
-        {/* Задня сторона */}
-        {hasCardFaces && (
-          <div className={`${css.cardFace} ${css.cardBack}`}>
-            <img src={card.card_faces[1].image_uris?.large} alt={`${card.name} - back`} className={css.imgCard} />
-          </div>
-        )}
-    
-      {/* Кнопка перевороту, якщо є дві сторони у картки */}
-      {hasCardFaces && (
-        <button className={css.flipBtn} onClick={handleToggleCard}>
-          <MdOutlineFlipCameraAndroid className={css.flip} />
-        </button>
+<div className={css.modalContent}>
+  <div className={`${css.cardInner} ${isFlipped ? css.flipped : ""}`}>
+    {/* Передня сторона */}
+    <div className={`${css.cardFace} ${card.foil ? css.foilEffect : ""}`}>
+      <img
+        src={card.image_uris?.large || card.card_faces[0].image_uris?.large}
+        alt={card.name}
+        className={css.imgCard}
+      />
+      {card.foil && (
+        <span className={css.foilBadge}>Foil ✨</span>
       )}
     </div>
-          <div className={css.cardDetails}>
-            <h2>{card.name}</h2>
-            <h3 className={css.set}> {card.set_name}</h3>
-      <p><b>Artist:</b> {card.artist}</p>
 
-      <div>
+    {/* Задня сторона */}
+    {hasCardFaces && (
+      <div className={`${css.cardFace} ${css.cardBack} ${card.foil ? css.foilEffect : ""}`}>
+        <img
+          src={card.card_faces[1].image_uris?.large}
+          alt={`${card.name} - back`}
+          className={css.imgCard}
+        />
+        {card.foil && (
+          <span className={css.foilBadge}>Foil ✨</span>
+        )}
+      </div>
+    )}
+
+    {hasCardFaces && (
+      <button className={css.flipBtn} onClick={handleToggleCard}>
+        <MdOutlineFlipCameraAndroid className={css.flip} />
+      </button>
+    )}
+  </div>
+
+  {/* Інша інформація */}
+    <div className={css.cardDetails}>
+      <div className={css.nameCard}>
+        <h2>{card.name}
+          
+        </h2>
+        <span title="English">{card.lang}</span>
+        {card.foil && (
+          <span className={css.foilBadge} title="Foil">✨</span>
+          )}
+      </div>
+    <h3 className={css.set}> {card.set_name}</h3>
+    <p><b>Artist:</b> {card.artist}</p>
+
+    <div>
       <b>Legalities:</b>
       <ul className={css.format}>
         {formatsToShow.map((format) => {
-          const status = card.legalities?.[format]; // Отримуємо статус формату
-          if (!status) return null; // Якщо формату немає, не виводимо
-
+          const status = card.legalities?.[format];
+          if (!status) return null;
           return (
-            <li key={format} className={css[legalityClasses[status] || "default"]} title={legalityClasses[status]}>
+            <li
+              key={format}
+              className={css[legalityClasses[status] || "default"]}
+              title={legalityClasses[status]}
+            >
               {format.charAt(0).toUpperCase() + format.slice(1)}
             </li>
           );
         })}
       </ul>
     </div>
-            <div className={css.price}>
-              <p><b>Price:</b> ${card.prices.usd}</p>
-              <button type="button" className={css.btnCart}><BsBasket /> Add to Cart</button>
-            </div>
-          </div>
-        </div>
+
+    <div className={css.price}>
+      <p><b>Price:</b> ${card.prices.usd}</p>
+      <button type="button" className={css.btnCart}><BsBasket /> Add to Cart</button>
+    </div>
+  </div>
+</div>
   )
 }
 
 export default ModalCard;
-
-legalities
-: 
-alchemy
-: 
-"legal"
-brawl
-: 
-"legal"
-commander
-: 
-"legal"
-duel
-: 
-"legal"
-explorer
-: 
-"legal"
-future
-: 
-"legal"
-gladiator
-: 
-"legal"
-historic
-: 
-"legal"
-legacy
-: 
-"legal"
-modern
-: 
-"legal"
-oathbreaker
-: 
-"legal"
-oldschool
-: 
-"not_legal"
-pauper
-: 
-"not_legal"
-paupercommander
-: 
-"not_legal"
-penny
-: 
-"legal"
-pioneer
-: 
-"legal"
-predh
-: 
-"not_legal"
-premodern
-: 
-"not_legal"
-standard
-: 
-"legal"
-standardbrawl
-: 
-"legal"
-timeless
-: 
-"legal"
-vintage
-: 
-"legal"

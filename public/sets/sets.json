@@ -545,5 +545,229 @@
     "symbol": "/sets/symbols/nph.svg",
     "release_date": "2011-05-13",
     "total_cards": 175
+  },  
+  {
+    "code": "isd",
+    "set_name": "Innistrad",
+    "symbol": "/sets/symbols/isd.svg",
+    "release_date": "2011-09-30",
+    "total_cards": 264
+  },  
+  {
+    "code": "dka",
+    "set_name": "Dark Ascension",
+    "symbol": "/sets/symbols/dka.svg",
+    "release_date": "2012-02-03",
+    "total_cards": 158
+  },  
+  {
+    "code": "avr",
+    "set_name": "Avacyn Restored",
+    "symbol": "/sets/symbols/avr.svg",
+    "release_date": "2012-05-04",
+    "total_cards": 244
+  },  
+  {
+    "code": "rtr",
+    "set_name": "Return to Ravnica",
+    "symbol": "/sets/symbols/rtr.svg",
+    "release_date": "2012-10-05",
+    "total_cards": 274
+  },  
+  {
+    "code": "gtc",
+    "set_name": "Gatecrash",
+    "symbol": "/sets/symbols/gtc.svg",
+    "release_date": "2013-02-01",
+    "total_cards": 249
+  },  
+  {
+    "code": "dgm",
+    "set_name": "Dragon's Maze",
+    "symbol": "/sets/symbols/dgm.svg",
+    "release_date": "2013-05-03",
+    "total_cards": 156
+  },  
+  {
+    "code": "ths",
+    "set_name": "Theros",
+    "symbol": "/sets/symbols/ths.svg",
+    "release_date": "2013-09-27",
+    "total_cards": 249
+  },  
+  {
+    "code": "bng",
+    "set_name": "Born of the Gods",
+    "symbol": "/sets/symbols/bng.svg",
+    "release_date": "2014-02-07",
+    "total_cards": 165
+  },  
+  {
+    "code": "jou",
+    "set_name": "Journey into Nyx",
+    "symbol": "/sets/symbols/jou.svg",
+    "release_date": "2014-05-02",
+    "total_cards": 165
+  },  
+  {
+    "code": "ktk",
+    "set_name": "Khans of Tarkir",
+    "symbol": "/sets/symbols/ktk.svg",
+    "release_date": "2014-09-26",
+    "total_cards": 269
+  },  
+  {
+    "code": "frf",
+    "set_name": "Fate Reforged",
+    "symbol": "/sets/symbols/frf.svg",
+    "release_date": "2015-01-23",
+    "total_cards": 185
+  },  
+  {
+    "code": "dtk",
+    "set_name": "Dragons of Tarkir",
+    "symbol": "/sets/symbols/dtk.svg",
+    "release_date": "2015-03-27",
+    "total_cards": 264
+  },  
+  {
+    "code": "bfz",
+    "set_name": "Battle for Zendikar",
+    "symbol": "/sets/symbols/bfz.svg",
+    "release_date": "2015-10-02",
+    "total_cards": 274
+  },  
+  {
+    "code": "ogw",
+    "set_name": "Oath of the Gatewatch",
+    "symbol": "/sets/symbols/ogw.svg",
+    "release_date": "2016-01-22",
+    "total_cards": 184
+  },  
+  {
+    "code": "soi",
+    "set_name": "Shadows over Innistrad",
+    "symbol": "/sets/symbols/soi.svg",
+    "release_date": "2016-04-08",
+    "total_cards": 297
+  },  
+  {
+    "code": "emn",
+    "set_name": "Eldritch Moon",
+    "symbol": "/sets/symbols/emn.svg",
+    "release_date": "2016-07-22",
+    "total_cards": 205
+  },  
+  {
+    "code": "kld",
+    "set_name": "Kaladesh",
+    "symbol": "/sets/symbols/kld.svg",
+    "release_date": "2016-09-30",
+    "total_cards": 264
+  },  
+  {
+    "code": "aer",
+    "set_name": "Aether Revolt",
+    "symbol": "/sets/symbols/aer.svg",
+    "release_date": "2017-01-20",
+    "total_cards": 284
+  },  
+  {
+    "code": "akh",
+    "set_name": "Amonkhet",
+    "symbol": "/sets/symbols/akh.svg",
+    "release_date": "2017-04-28",
+    "total_cards": 269
+  },  
+  {
+    "code": "hou",
+    "set_name": "Hour of Devastation",
+    "symbol": "/sets/symbols/hou.svg",
+    "release_date": "2017-07-14",
+    "total_cards": 199
+  },  
+  {
+    "code": "xln",
+    "set_name": "Ixalan",
+    "symbol": "/sets/symbols/xln.svg",
+    "release_date": "2017-09-29",
+    "total_cards": 279
+  },  
+  {
+    "code": "rix",
+    "set_name": "Rivals of Ixalan",
+    "symbol": "/sets/symbols/rix.svg",
+    "release_date": "2018-01-19",
+    "total_cards": 196
+  },  
+  {
+    "code": "dom",
+    "set_name": "Dominaria",
+    "symbol": "/sets/symbols/dom.svg",
+    "release_date": "2018-04-27",
+    "total_cards": 269
+  },  
+  {
+    "code": "grn",
+    "set_name": "Guilds of Ravnica",
+    "symbol": "/sets/symbols/grn.svg",
+    "release_date": "2018-10-05",
+    "total_cards": 259
+  },  
+  {
+    "code": "rna",
+    "set_name": "Ravnica Allegiance",
+    "symbol": "/sets/symbols/rna.svg",
+    "release_date": "2019-01-25",
+    "total_cards": 259
+  },  
+  {
+    "code": "war",
+    "set_name": "War of the Spark",
+    "symbol": "/sets/symbols/war.svg",
+    "release_date": "2019-05-03",
+    "total_cards": 264
+  },  
+  {
+    "code": "eld",
+    "set_name": "Throne of Eldraine",
+    "symbol": "/sets/symbols/eld.svg",
+    "release_date": "2019-10-04",
+    "total_cards": 269
+  },  
+  {
+    "code": "thb",
+    "set_name": "Theros Beyond Death",
+    "symbol": "/sets/symbols/thb.svg",
+    "release_date": "2020-01-24",
+    "total_cards": 254
+  },  
+  {
+    "code": "iko",
+    "set_name": "Ikoria: Lair of Behemoths",
+    "symbol": "/sets/symbols/iko.svg",
+    "release_date": "2020-05-15",
+    "total_cards": 274
+  },  
+  {
+    "code": "znr",
+    "set_name": "Zendikar Rising",
+    "symbol": "/sets/symbols/znr.svg",
+    "release_date": "2020-09-25",
+    "total_cards": 280
+  },  
+  {
+    "code": "khm",
+    "set_name": "Kaldheim",
+    "symbol": "/sets/symbols/khm.svg",
+    "release_date": "2021-02-05",
+    "total_cards": 285
+  },  
+  {
+    "code": "stx",
+    "set_name": "Strixhaven: School of Mages",
+    "symbol": "/sets/symbols/stx.svg",
+    "release_date": "2021-04-23",
+    "total_cards": 275
   }  
 ]

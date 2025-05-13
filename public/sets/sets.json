@@ -769,5 +769,124 @@
     "symbol": "/sets/symbols/stx.svg",
     "release_date": "2021-04-23",
     "total_cards": 275
+  },  
+  {
+    "code": "afr",
+    "set_name": "Dungeons & Dragons: Adventures in the Forgotten Realms",
+    "symbol": "/sets/symbols/afr.svg",
+    "release_date": "2021-07-23",
+    "total_cards": 281
+  },  
+  {
+    "code": "mid",
+    "set_name": "Innistrad: Midnight Hunt",
+    "symbol": "/sets/symbols/mid.svg",
+    "release_date": "2021-09-24",
+    "total_cards": 277
+  },  
+  {
+    "code": "vow",
+    "set_name": "Innistrad: Crimson Vow",
+    "symbol": "/sets/symbols/vow.svg",
+    "release_date": "2021-11-19",
+    "total_cards": 277
+  },  
+  {
+    "code": "neo",
+    "set_name": "Kamigawa: Neon Dynasty",
+    "symbol": "/sets/symbols/neo.svg",
+    "release_date": "2022-02-18",
+    "total_cards": 302
+  },  
+  {
+    "code": "snc",
+    "set_name": "Streets of New Capenna",
+    "symbol": "/sets/symbols/snc.svg",
+    "release_date": "2022-04-29",
+    "total_cards": 281
+  },  
+  {
+    "code": "dmu",
+    "set_name": "Dominaria United",
+    "symbol": "/sets/symbols/dmu.svg",
+    "release_date": "2022-09-09",
+    "total_cards": 281
+  },  
+  {
+    "code": "bro",
+    "set_name": "The Brothers' War",
+    "symbol": "/sets/symbols/bro.svg",
+    "release_date": "2022-11-18",
+    "total_cards": 287
+  },  
+  {
+    "code": "one",
+    "set_name": "Phyrexia: All Will Be One",
+    "symbol": "/sets/symbols/one.svg",
+    "release_date": "2023-02-10",
+    "total_cards": 271
+  },  
+  {
+    "code": "mom",
+    "set_name": "March of the Machine",
+    "symbol": "/sets/symbols/mom.svg",
+    "release_date": "2023-04-21",
+    "total_cards": 291
+  },  
+  {
+    "code": "mat",
+    "set_name": "March of the Machine: The Aftermath",
+    "symbol": "/sets/symbols/mat.svg",
+    "release_date": "2023-05-12",
+    "total_cards": 50
+  },  
+  {
+    "code": "woe",
+    "set_name": "Wilds of Eldraine",
+    "symbol": "/sets/symbols/woe.svg",
+    "release_date": "2023-09-08",
+    "total_cards": 381
+  },  
+  {
+    "code": "lci",
+    "set_name": "The Lost Caverns of Ixalan",
+    "symbol": "/sets/symbols/lci.svg",
+    "release_date": "2023-11-17",
+    "total_cards": 291
+  },  
+  {
+    "code": "mkm",
+    "set_name": "Murders at Karlov Manor",
+    "symbol": "/sets/symbols/mkm.svg",
+    "release_date": "2024-02-09",
+    "total_cards": 286
+  },  
+  {
+    "code": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "symbol": "/sets/symbols/otj.svg",
+    "release_date": "2024-04-19",
+    "total_cards": 276
+  },  
+  {
+    "code": "blb",
+    "set_name": "Bloomburrow",
+    "symbol": "/sets/symbols/blb.svg",
+    "release_date": "2024-08-02",
+    "total_cards": 276
+  },  
+  {
+    "code": "dsk",
+    "set_name": "Duskmourn: House of Horror",
+    "symbol": "/sets/symbols/dsk.svg",
+    "release_date": "2024-09-27",
+    "total_cards": 286
+  },  
+  {
+    "code": "dft",
+    "set_name": "Aetherdrift",
+    "symbol": "/sets/symbols/dft.svg",
+    "release_date": "2025-02-14",
+    "total_cards": 276
   }  
 ]
